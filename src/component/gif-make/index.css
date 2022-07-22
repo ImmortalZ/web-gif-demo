@@ -1,0 +1,38 @@
+.gif-make {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0;
+}
+
+.gif-make-row {
+    display: flex;
+}
+
+.gif-make-row .canvas-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas-preview canvas {
+    width: 300px;
+    height: 169px;
+    background: blueviolet;
+    margin-bottom: 10px;
+}
+
+.gif-make-row .gif {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.gif .demo-gif {
+    width: 300px;
+    height: 169px;
+    background: #2b7ae2;
+}
+
+.demo-gif img {
+    width: 300px;
+    height: 169px;
+}

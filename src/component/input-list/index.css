@@ -1,0 +1,17 @@
+.input-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-list .input-item {
+    display: flex;
+    align-items: center;
+}
+
+.input-list .input-item span {
+    font-size: 14px;
+}
+
+.input-list .input-item input {
+    margin: 5px;
+}
